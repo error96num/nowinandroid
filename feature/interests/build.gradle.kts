@@ -24,9 +24,6 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.data)
-    implementation(projects.core.domain)
-
     testImplementation(projects.core.testing)
     testImplementation(libs.robolectric)
 
