@@ -27,9 +27,7 @@ android {
 
 dependencies {
     implementation(libs.accompanist.permissions)
-    implementation(projects.core.data)
-    implementation(projects.core.domain)
-    implementation(project(":core:notifications"))
+    implementation(projects.core.notifications)
 
     testImplementation(libs.hilt.android.testing)
     testImplementation(libs.robolectric)
